@@ -30,7 +30,7 @@ pub fn run() {
     let slice: &[i32] = &numbers[0..3];
     println!("Slice {:?}", slice);
 
-    // Loop through vector calues
+    // Loop through vector calues.
     for x in numbers.iter() {
         println!("Number: {}", x);
     }
